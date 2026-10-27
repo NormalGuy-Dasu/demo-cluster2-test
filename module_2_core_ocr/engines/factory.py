@@ -8,9 +8,6 @@ class OcrEngineFactory:
     # DANH BẠ TƯỜNG MINH (Explicit Registry)
     _REGISTRY = {
         "paddle_vietocr": "module_2_core_ocr.engines.paddle_vietocr.PaddleVietOcrEngine",
-        # Hướng 1: Đăng ký tĩnh cho động cơ DeepDoc mới vào hệ thống
-        "deepdoc": "module_2_core_ocr.engines.deepdoc_engine.DeepdocEngine",
-        "pure_paddle": "module_2_core_ocr.engines.pure_paddle_engine.PurePaddleEngine"
     }
 
     @classmethod
