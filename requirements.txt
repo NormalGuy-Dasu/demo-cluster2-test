@@ -4,7 +4,7 @@ psutil
 setuptools<81
 numpy==1.26.4
 pyarrow==20.0.0
-opencv-python-headless==4.9.0.80
+opencv-python-headless==4.11.0.86
 paddlepaddle==2.6.2
 torch==2.2.2+cpu
 torchvision==0.17.2+cpu
